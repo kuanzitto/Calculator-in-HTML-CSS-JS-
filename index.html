@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <title>Ex0015</title>
+</head>
+<body class="style">
+    <!--______________________________________________________________________________________________________________________________________________________________________________________-->
+    
+    <header>
+        <div>
+            <h1 class="title">Calculadora</h1>
+        </div>
+        <div>
+            <div class="menu-themes"> 
+                <div class="button"></div>
+                <div class="themes">
+                    <ul class="all_themes">
+
+                        <input type="radio" name="chekin" class="chekin lua">
+                        <label for="lua">
+                            <span class="thimis moon material-symbols-outlined">bedtime</span>
+                        </label>
+
+                        <input type="radio" name="chekin"  class="chekin sol">
+                        <label for="sol">
+                            <span class="thimis sunny material-symbols-outlined">clear_day</span>
+                        </label>
+
+                        <input type="radio" name="chekin"   class="chekin nuvem">
+                        <label for="nuvem">
+                            <span class="thimis cloudy material-symbols-outlined">cloudy_filled</span>
+                        </label>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!--______________________________________________________________________________________________________________________________________________________________________________________-->
+
+    <main>
+        <div class="calculator_container">
+            <div class="calc_view">
+                <span class="opts" ></span>
+                <span class="numbers"></span>
+            </div>
+            <div class="calc_quite">
+                <div class="SEN">
+                    <input type="button" value="7" class="bnt_seven">
+                    <input type="button" value="8" class="bnt_eight">
+                    <input type="button" value="9" class="bnt_nine">
+                </div>
+                <div class="FFS">
+                    <input type="button" value="4" class="bnt_four">
+                    <input type="button" value="5" class="bnt_five">
+                    <input type="button" value="6" class="bnt_six">
+                </div>
+                <div class="OTT">
+                    <input type="button" value="1" class="bnt_one">
+                    <input type="button" value="2" class="bnt_two">
+                    <input type="button" value="3" class="bnt_three">
+                </div>
+                <div class="ZDP">
+                    <input type="button" value="0" class="bnt_zero">
+                    <input type="button" value="/" class="oper_div">
+                    <input type="button" value="." class="bnt_point">
+                </div>
+                <div class="DMMX">
+                    <input type="button" value="DELL" class="delet">
+                    <input type="button" value="+" class="oper_most">
+                    <input type="button" value="-" class="oper_less">
+                    <input type="button" value="*" class="oper_xi">
+                </div>
+                <div class="ri">
+                    <input type="button" value="RESET" class="reset" name="ri">
+                    <input type="button" value="=" class="equal" name="ri">
+                </div>
+            </div>
+            <div>
+                <div class="errors">
+                    <p> [ ERRO ]</p>
+                    <p>Limite Excedido</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--______________________________________________________________________________________________________________________________________________________________________________________-->
+
+    <script src="JS/calculadora.JS"></script>
+
+</body>
+</html>
